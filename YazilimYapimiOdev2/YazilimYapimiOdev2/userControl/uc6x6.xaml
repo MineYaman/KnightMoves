@@ -1,0 +1,63 @@
+﻿<UserControl x:Class="YazilimYapimiOdev2.userControl.uc6x6"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:YazilimYapimiOdev2.userControl"
+             mc:Ignorable="d" 
+             d:DesignHeight="500" d:DesignWidth="500">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="84*"/>
+            <RowDefinition Height="84*"/>
+            <RowDefinition Height="83*"/>
+            <RowDefinition Height="83*"/>
+            <RowDefinition Height="83*"/>
+            <RowDefinition Height="83*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="84*"/>
+            <ColumnDefinition Width="84*"/>
+            <ColumnDefinition Width="83*"/>
+            <ColumnDefinition Width="83*"/>
+            <ColumnDefinition Width="83*"/>
+            <ColumnDefinition Width="83*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="button" Click="button_Click" Content=""/>
+        <Button x:Name="button1" Click="button1_Click" Content="" Margin="83,0,0,0" Grid.ColumnSpan="2"/>
+        <Button x:Name="button2" Click="button2_Click" Content="" Grid.Column="2" Margin="0,0,0,0"/>
+        <Button x:Name="button3" Content="" Grid.Column="3" Margin="0,0,0,0" Click="button3_Click"/>
+        <Button x:Name="button4" Content="" Grid.Column="3" Margin="82.8,0,82,0" Grid.ColumnSpan="3" Height="84" VerticalAlignment="Top" Click="button4_Click"/>
+        <Button x:Name="button5" Content="" Grid.Column="5" Margin="0.4,0,0,0" Height="84" VerticalAlignment="Top" Click="button5_Click"/>
+        <Button x:Name="button6" Content="" Margin="0,0,0,0" Grid.Row="1" Click="button6_Click"/>
+        <Button x:Name="button7" Content="" Grid.Column="1" Margin="0,0,0,0" Grid.Row="1" Click="button7_Click"/>
+        <Button x:Name="button8" Content="" Grid.Column="2" Margin="0,0,0.2,0" Grid.Row="1" Height="84" VerticalAlignment="Top" Click="button8_Click"/>
+        <Button x:Name="button9" Content="" Grid.Column="3" Margin="0,0,0,0" Grid.Row="1" Click="button9_Click"/>
+        <Button x:Name="button10" Content="" Grid.Column="4" Margin="0,0,0,0" Grid.Row="1" Click="button10_Click"/>
+        <Button x:Name="button11" Content="" Grid.Column="5" Margin="0,0,0,0" Grid.Row="1" Click="button11_Click"/>
+        <Button x:Name="button12" Content="" Margin="0,0,0,0" Grid.Row="2" Click="button12_Click"/>
+        <Button x:Name="button13" Content="" Grid.Column="1" Margin="0,0,0,0" Grid.Row="2" Click="button13_Click"/>
+        <Button x:Name="button14" Content="" Grid.Column="2" Margin="0,0,0,0" Grid.Row="2" Click="button14_Click"/>
+        <Button x:Name="button15" Content="" Grid.Column="3" Margin="0,0,0,0" Grid.Row="2" Click="button15_Click"/>
+        <Button x:Name="button16" Content="" Grid.Column="4" Margin="0,0,0,0" Grid.Row="2" Click="button16_Click"/>
+        <Button x:Name="button17" Content="" Grid.Column="5" Margin="0,0,0,0" Grid.Row="2" Click="button17_Click"/>
+        <Button x:Name="button18" Content="" Margin="0,83,0,0.4" Grid.Row="2" Grid.RowSpan="2" Click="button18_Click"/>
+        <Button x:Name="button19" Content="" Grid.Column="1" Margin="0,0,0,0" Grid.Row="3" Click="button19_Click"/>
+        <Button x:Name="button20" Content="" Grid.Column="2" Margin="0,0,0,0" Grid.Row="3" Click="button20_Click"/>
+        <Button x:Name="button21" Content="" Grid.Column="3" Margin="0,0,0,0" Grid.Row="3" Click="button21_Click"/>
+        <Button x:Name="button22" Content="" Grid.Column="4" Margin="0,0,0,0" Grid.Row="3" Click="button22_Click"/>
+        <Button x:Name="button23" Content="" Grid.Column="5" Margin="0.4,83,0,0" Grid.Row="2" Height="83" Grid.RowSpan="2" VerticalAlignment="Top" Click="button23_Click"/>
+        <Button x:Name="button24" Content="" Margin="0,82.8,0,0" Grid.Row="3" Height="84" Grid.RowSpan="3" VerticalAlignment="Top" Click="button24_Click"/>
+        <Button x:Name="button25" Content="" Grid.Column="1" Margin="0,0,0,0" Grid.Row="4" Click="button25_Click"/>
+        <Button x:Name="button26" Content="" Grid.Column="2" Margin="0,0,0,0" Grid.Row="4" Click="button26_Click"/>
+        <Button x:Name="button27" Content="" Grid.Column="3" Margin="0,0,0,0" Grid.Row="4" Click="button27_Click"/>
+        <Button x:Name="button28" Content="" Grid.Column="3" Margin="82.8,82.8,82,0" Grid.Row="3" Grid.ColumnSpan="3" Height="84" Grid.RowSpan="3" VerticalAlignment="Top" Click="button28_Click"/>
+        <Button x:Name="button29" Content="" Grid.Column="5" Margin="0,0,0,0" Grid.Row="4" Click="button29_Click"/>
+        <Button x:Name="button30" Content="" Margin="0,0.4,0,0" Grid.Row="5" Click="button30_Click"/>
+        <Button x:Name="button31" Content="" Grid.Column="1" Margin="0,0,0,0" Grid.Row="5" Click="button31_Click"/>
+        <Button x:Name="button32" Content="" Grid.Column="2" Margin="0,0,0,0" Grid.Row="5" Click="button32_Click"/>
+        <Button x:Name="button33" Content="" Grid.Column="3" Margin="0,0,0,0" Grid.Row="5" Click="button33_Click"/>
+        <Button x:Name="button34" Content="" Grid.Column="3" Margin="82.8,0.4,82,0" Grid.Row="5" Grid.ColumnSpan="3" Click="button34_Click"/>
+        <Button x:Name="button35" Content="" Grid.Column="5" Margin="0,0,0,0" Grid.Row="5" Click="button35_Click"/>
+    </Grid>
+</UserControl>
